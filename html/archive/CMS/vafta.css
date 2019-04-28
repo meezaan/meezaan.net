@@ -1,0 +1,189 @@
+@charset "utf-8";
+body {
+	font: 80% Arial;
+	background-image: url(images/bg.jpg);
+	background-color: #595959;
+	background-repeat: repeat-x;
+  	background-position: top;
+	margin-top: 15px; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	padding: 0;
+	color: #000000;
+	text-align: center;
+ /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+}
+
+.vafta #container {
+	width: 804px;  /* this will create a container 80% of the browser width */
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	text-align: left; /* this overrides the text-align: center on the body element. */
+}
+
+.vafta #header {
+	width: 804px; 
+	padding: 0;
+  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+}
+
+.vafta #gap {
+	width: 804px;
+	height: 15px;
+	font-size: 10px;
+	color: #FFFFFF; 
+	text-align: right;
+	padding: 0;
+  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+}
+
+.vafta #maintop {
+	width: 804px;
+	height: 17px;
+	padding: 0;
+  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+}
+
+.vafta #trail {
+	width: 750;
+	padding-left: 24px;
+	padding-top: 10px;
+	color: #000066;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+
+.vafta #main {
+	width: 770px;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin-left: 1px;
+	margin-right: 1px;
+	background-color: #FFFFFF;
+}
+
+.vafta #error {
+	width: 700px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 1px;
+	margin-right: 1px;
+	background-color: #FFFFCC;
+	color: #990000;
+	border-style: solid;
+	font-weight: bold;
+  /* this padding matches the left alignment of the elements in the divs that appear beneath it. If an image is used in the #header instead of text, you may want to remove the padding. */
+}
+
+.vafta #menu {
+	width: 130px;
+	background-color: #FFFFFF;
+	height: auto;
+	color: #000000;
+	float: left;
+	border-color: #000066;
+	border-right: solid;
+	border-width: 1px;
+	padding-bottom: 20px;
+}
+
+.vafta #main_text {
+	width: 620px;
+	background-color: #FFFFFF;
+	height: auto;
+	float: right;
+	padding-bottom: 20px;
+}
+
+.vafta #clearer {
+	clear: both;
+}
+
+.vafta #mainbottom {
+	width: 804px;
+	padding: 0;
+}
+
+.vafta #copyright {
+	width: 804px;
+	padding-top: 10px;
+	font-size: 10px;
+	color: #FFFFFF;
+	text-align: center;
+}
+
+/* Link Formatting */
+.vafta a:link {color: #000033; text-decoration: none; }
+.vafta a:visited {color: #000033; text-decoration: none; }
+.vafta a:hover {color: #000033; text-decoration: underline; }
+.vafta a:active {color: #000033; }
+
+.vafta a.bg:link {color: #CCCCCC; text-decoration: none; }
+.vafta a.bg:visited {color: #CCCCCC; text-decoration: none; }
+.vafta a.bg:hover {color: #FFFFFF; text-decoration: underline; }
+.vafta a.bg:active {color: #CCCCCC; }
+
+.vafta a.traillink:link {color: #333333; text-decoration: none; }
+.vafta a.traillink:visited {color: #333333; text-decoration: none; }
+.vafta a.traillink:hover {color: #333333; text-decoration: underline; }
+.vafta a.traillink:active {color: #333333; }
+
+.vafta a.password:link {color: #333333; text-decoration: none; font-size: 8px; }
+.vafta a.password:visited {color: #333333; text-decoration: none; font-size: 8px;}
+.vafta a.password:hover {color: #333333; text-decoration: underline;font-size: 8px; }
+.vafta a.password:active {color: #333333; font-size: 8px;}
+
+/* Link Formatting Text Formatting*/
+
+
+.vafta td {
+	text-align: center;
+}
+
+.vafta td.displayleft {
+	text-align: left;
+}
+
+.vafta td.form {
+	text-align: left;
+}
+
+.vafta td.formlabel {
+	text-align: right;
+	font-weight: bold;
+}
+
+.vafta td.passwordlink {
+	text-align: left;
+	font-size: 8px;
+}
+
+.vafta tr.gray  {
+	text-align: left;
+	background-color: #EEEFF0;
+}
+
+.vafta tr.header  {
+	text-align: left;
+	font-weight: bold;
+}
+
+.vafta .sitetitle {
+	font-weight: bold;
+	font-style: italic;
+}
+
+.vafta .pagesubmenu {
+	text-align: right;
+	font-size: 9px;
+}
+
+.vafta .formtitle {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.vafta .formcomment {
+	color: #666666;
+	font-style: italic;
+}

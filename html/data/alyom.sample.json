@@ -1,0 +1,104 @@
+{
+  "quote": {
+    "en": {
+      "text": "I was dead. I became quickened. I was tears. I became laughter. The dominion of Love came, and I became the enduring dominion.",
+      "source": "Jalaal Al Deen Rumi, Deewaan. Translated from the Persian by Seyyed Hossein Nasr."
+    },
+    "fa": {
+      "text": "مرده بدم زنده شدم گریه بدم خنده شدم دولت عشق آمد و من دولت پاینده شدم ",
+      "source": "Jalaal Al Deen Rumi, Deewaan. Translated from the Persian by Seyyed Hossein Nasr."
+    },
+    "ar": {
+      "text": "مرده بدم زنده شدم گریه بدم خنده شدم دولت عشق آمد و من دولت پاینده شدم ",
+      "source": "Jalaal Al Deen Rumi, Deewaan. Translated from the Persian by Seyyed Hossein Nasr."
+    }
+  },
+  "languages": [
+    "en",
+    "fa",
+    "ar"
+  ],
+  "vendors": [
+    {
+      "name": "Amazon",
+      "alt": "Amazon",
+      "title": "Buy Knowledge and the Sacred from Amazon",
+      "url": "http://amazon.co.uk",
+      "type": "amazon"
+    },
+    {
+      "name": "Ebay",
+      "alt": "Ebay",
+      "title": "Buy Knowledge and the Sacred from ebay",
+      "url": "http://ebay.co.uk",
+      "type": "ebay"
+    },
+    {
+      "name": "Wordery",
+      "alt": "Wordery",
+      "title": "Buy Knowledge and the Sacred from Wordery",
+      "url": "http://wordery.com",
+      "type": "wordery"
+    },
+    {
+      "name": "OneDrive",
+      "alt": "OneDrive",
+      "title": "Watch on onedrive",
+      "url": "http://onedrive.com",
+      "type": "onedrive"
+    },
+    {
+      "name": "YouTube",
+      "alt": "YouTube",
+      "title": "Watch on YouTube",
+      "url": "http://youtube.com",
+      "type": "youtube"
+    },
+    {
+      "name": "Other",
+      "alt": "",
+      "title": "Buy Knowledge and the Sacred from Other",
+      "url": "http://other.com",
+      "type": "other"
+    }
+  ],
+  "date": {
+    "hijri": {
+      "date": "15-02-1436",
+      "format": "DD-MM-YYYY",
+      "day": "15",
+      "weekday": {
+        "en": "Al Ahad",
+        "ar": "الاحد"
+      },
+      "month": {
+        "number": 2,
+        "en": "Ṣafar",
+        "ar": "صَفَر"
+      },
+      "year": "1436",
+      "designation": {
+        "abbreviated": "AH",
+        "expanded": "Anno Hegirae"
+      },
+      "holidays": []
+    },
+    "gregorian": {
+      "date": "07-12-2014",
+      "format": "DD-MM-YYYY",
+      "day": "07",
+      "weekday": {
+        "en": "Sunday"
+      },
+      "month": {
+        "number": 12,
+        "en": "December"
+      },
+      "year": "2014",
+      "designation": {
+        "abbreviated": "AD",
+        "expanded": "Anno Domini"
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+<?php
+/*
+This code is copyright (c) VAFTA Solutions Limited, all rights reserved. The contents of this file are protected under law as the intellectual property of VAFTA Solutions Limited. Any use, reproduction, disclosure or copying of any kind without the express and written permission of VAFTA Solutions Limited is forbidden.
+Author:  Asif Nawaz, asif@vafta.com
+*/
+
+function stripanyslashes($string) {
+    if(!get_magic_quotes_gpc()) {
+        return stripslashes($string);
+    } else {
+        return $string;
+    }
+}
+?>

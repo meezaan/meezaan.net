@@ -1,0 +1,262 @@
+
+/* Body properties */ 
+
+body{
+ margin: 0;
+ padding:0;
+ background: #E6E9F5;
+ color: #333;
+ font-size: 11px;
+ font-family : Verdana, Arial, Helvetica, sans-serif;
+ }
+ 
+body.printbody{
+ margin: 0;
+ padding:0;
+ background: #FFFFFF;
+ color: #333;
+ font-size: 11px;
+ font-family : Verdana, Arial, Helvetica, sans-serif;
+ }
+
+ /* Top bar */
+ 
+ #header1{
+ height: 16px;
+ background:#BFC9E0;
+ background-image: url('adminimages/newtoptopbg.jpg');
+ margin:0px 9px 0px 5px;
+ padding: 2px;
+ font-size: 11px;
+ font-family : Verdana, Arial, Helvetica, sans-serif;
+ color : #000000;
+ }
+ 
+ /* Header */
+	 
+#header{
+ height: 60px;
+ background:#BFC9E0;
+ margin:0px 9px 0px 5px;
+ padding: 5px;
+ font-size: 11px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color : #000000;
+ }
+ 
+ /* 1st menu */
+
+#left1{
+ position: absolute;
+ top: 99px;
+ left: 5px;
+ width: 150px;
+ border: 1px dotted #194C7F;
+ background: #E6E9F5;
+ color: #333333;
+ margin: 0px;
+ padding: 0px;
+ height: 160px;
+ }
+ 
+ /* 2nd menu */
+
+#left2{
+ position: absolute;
+ top: 269px;
+ left: 5px;
+ width: 150px;
+ border: 1px dotted #194C7F;
+ background: #E6E9F5;
+ color: #333333;
+ margin: 0px;
+ padding:0px;
+ height: 112px;
+ }
+ 
+ /* 3rd menu */
+ 
+ #left3{
+ position: absolute;
+ top: 391px;
+ left: 5px;
+ width: 150px;
+ border: 1px dotted #194C7F;
+ background: #E6E9F5;
+ color: #333333;
+ margin: 0px;
+ padding:0px;
+ height: 96px;
+ }
+ 
+ /* 4th menu */
+ 
+ #left4{
+ position: absolute;
+ top: 497px;
+ left: 5px;
+ width: 150px;
+ border: 1px dotted #194C7F;
+ background: #E6E9F5;
+ color: #333333;
+ margin: 0px;
+ padding:0px;
+ height: 80px;
+ }
+ 
+ /* Main content */
+
+#main{
+ margin: 9px 9px 9px 165px;
+ border: 1px dotted #194C7F;
+ background: #FFF;
+ color: #333;
+ padding: 2px;
+ }
+
+#mainprint{
+ margin: 0px 0px 0px 0px;
+ background: #FFFFFF;
+ padding: 2px;
+ }
+ 
+ /* Top links */
+ 
+ A.topbar:link {
+	color: #194C7F;
+	text-decoration: none;
+}
+
+A.topbar:visited {
+	color: #194C7F;
+	text-decoration: none;
+}
+
+A.topbar:active {
+	color: #194C7F;
+	text-decoration: none;
+}
+
+A.topbar:hover {
+	color: #FFCC99;
+	text-decoration: none;
+}
+ 
+ /* Body links */ 
+ 
+A:link {
+	color: #000066;
+	text-decoration: none;
+}
+A:visited {
+	color: #000066;
+	text-decoration: none;
+}
+A:active {
+	color: #000066;
+	text-decoration: none;
+}
+A:hover {
+	color: #CC0000;
+	text-decoration: none;
+}
+
+/* Cell properties */
+
+TD {
+	font-size: 11px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Paragraph properties */
+
+P {
+	font-size: 11px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Darkest alternate cell property */
+
+TD.topdark {
+	font-size: 11px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color : #E7EAEF;
+	background: #030133;
+}
+
+TR.altdark {
+	font-size: 11px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color : #000;
+	background: #EAECEB;
+}
+
+/* Lighter alternate cell property */
+
+TR.altlight {
+	font-size: 11px;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color : #000;
+	background: #FFF;
+}
+
+/* Form box properties */
+
+Input {
+	border-width: 1px;
+	border-color: #003366;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color : #003366;
+	background-color: #E7EAEF;
+}
+Input.noborder {
+	border-width: 1px;
+	border-color: #003366;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color : #003366;
+	background-color: #FFFFFF;
+}
+Input.darkborder {
+	border-width: 2px;
+	border-color: #003366;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color : #003366;
+	background-color: #E7EAEF;
+}
+Textarea {
+	border-width: 1px;
+	border-color: #003366;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color : #003366;
+	background-color: #E7EAEF;
+}
+Select {
+	font-size: 11px;
+	border-width: 1px;
+	border-color: #003366;
+	font-family : Verdana, Arial, Helvetica, sans-serif;
+	color : #003366;
+	background-color: #E7EAEF;
+}
+
+/* Horizontal rule properties */
+
+HR {
+	color: #E7EAEF;
+	height: 1px;
+}
+TABLE.cobtbl{
+	background-color: #95A7CF;
+}
+TD.cobhl{
+	background-color: #E6E9F5;
+}
+TD.cobll{
+	background-color: #FFFFFF;
+}

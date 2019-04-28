@@ -1,0 +1,14 @@
+redirect 301 /consulting/shopping_store http://www.asifnawaz.net
+redirect 301 /consulting/publications http://www.asifnawaz.net
+redirect 301 /consulting/current_projects http://www.asifnawaz.net
+redirect 301 /consulting/expertise/past_projects.php http://www.asifnawaz.net
+
+
+ErrorDocument 404 http://www.asifnawaz.net/?page=8
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^asifnawaz.net
+RewriteRule (.*) http://www.asifnawaz.net/$1 [R=301,L]
+
+
+
