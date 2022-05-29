@@ -1,6 +1,0 @@
-FROM percona:5.7
-
-EXPOSE 3306
-
-# Copy and Insert DB Backup
-ADD marifasql.tar.gz /docker-entrypoint-initdb.d/
